@@ -1,0 +1,349 @@
+body {
+  background-image: url(img/Fondo.jpg);
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.header label {
+    height: 5px;
+    width: 5px;
+}
+
+.contenedor {
+  width: 100%;
+  background-color: black;
+  height: 70px;
+}
+.header {
+  background-color: black;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 70px;
+}
+
+.imgletras img{
+  height: 40px;
+}
+
+.imgletras {
+  height: 50px;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+}
+
+.header input {
+  color: black;
+  background-color: black;
+  opacity: 0%;
+  float: left;
+}
+
+.header ul {
+  color: white;
+ display: inline-block;
+ list-style: none;
+}
+.header li {
+  display: inline-block;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+
+}
+.header nav {
+  margin-left: 0px;
+  width: 1000px;
+  float: left;
+}
+
+.main{
+  padding-top: 52px;
+}
+
+#pizza {
+    margin-left: -35px;
+}
+
+#pakoras{
+  margin-left: -7px;
+}
+
+#gnochis {
+  margin-left: -25px;
+}
+
+#arancinis {
+  margin-left: -30px;
+}
+
+
+.slider {
+  height: auto;
+	width: 100%;
+  height: 600px;
+	margin: 0 auto;
+  padding: 0;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+
+	animation: cambio 16s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+  height: auto;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+#uno {
+    background-image: url(img/F3Receta.jpg);
+}
+
+.container {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+
+.middle {
+  position: relative;
+  top: 200px;
+  width: 220px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0;
+  text-align: center;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 18px;
+  padding: 22px;
+}
+
+.submit {
+  width: 330px;
+  height: 150px;
+  margin: 1px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-style: none;
+}
+
+#boton{
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 332px;
+  height: 152px;
+}
+
+#espacio{
+  height: 40px;
+  width: 40px;
+}
+
+  .footer {
+    margin-bottom: 0px;
+    width: 100%;
+    height: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: black;
+    color: white;
+  }
+
+  .redessociales {
+    width: calc(100%/3);
+    height: 100%;
+    float: left;
+  }
+
+  .acesosdirectos {
+    width: calc(100%/3);
+    height: 100%;
+    float: left;
+  }
+
+  .contacto {
+    width: calc(100%/3);
+    height: 100%;
+    float: left;
+  }
+
+  .redessociales img {
+    height: 50px;
+  }
+
+  .redessociales p{
+  font-size: 18px;
+  margin-top: -34px;
+  margin-left: 55px;
+  padding: 0px;
+  }
+
+  #euno {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0px;
+  float: left;
+  height: 35px;
+
+  }
+
+  #edos {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    height: 35px;
+  }
+
+  #etres {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    height: 35px;
+  }
+
+  #ecuatro {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    float: left;
+    height: 30px;
+  }
+
+  .acesosdirectos {
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+  }
+
+  .textuno {
+    height: auto;
+    margin-top: -5px;
+  }
+
+  .contacto {
+    font-size: 18px;
+    text-align: center;
+    line-height: 23px;
+  }
+
+  .ingredientes {
+    background-color: rgba(255,255,255,.5);
+    width: 270px;
+    margin: 0 auto;
+  }
+
+  .ingredientes p{
+    text-align: center;
+    font-size: 22px;
+    opacity: 100%;
+  }
+
+  .ingredientes h1{
+    margin-left: 15px;
+    text-align: left;
+    opacity: 100%;
+  }
+
+  .pasos {
+    background-color: rgba(255,255,255,.5);
+    width: 570px;
+    margin: 0 auto;
+  }
+
+  .pasos p{
+    text-align: justify;
+    font-size: 22px;
+    opacity: 100%;
+    margin-left: 20px;
+    margin-right: 20px
+  }
+
+  .pasos h1{
+    margin-left: 15px;
+    text-align: left;
+    opacity: 100%;
+  }
+
+  .dificultad {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  .dificultad p{
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .dificultad h1{
+    text-align: center;
+  }
+
+  .racions {
+    width: 470px;
+    margin: 0 auto;
+  }
+
+  .racions p{
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .racions h1{
+    text-align: center;
+  }
+
+  .temps {
+    width: 100px;
+    margin: 0 auto;
+  }
+
+  .temps p{
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .temps h2{
+    text-align: center;
+  }
