@@ -1,0 +1,328 @@
+body {
+  background-image: url(img/Fondo.jpg);
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  width: 100%;
+  background-color: black;
+  height: 40px;
+}
+.header {
+  background-color: black;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+#pizza {
+    margin-left: -35px;
+}
+
+#pakoras{
+  margin-left: -7px;
+}
+
+#gnochis {
+  margin-left: -25px;
+}
+
+#arancinis {
+  margin-left: -30px;
+}
+
+.imgletras img{
+  height: 25px;
+}
+
+.imgletras {
+  height: 20px;
+  width: auto;
+  position: absolute;
+  top: 6px;
+  right: 12px;
+  float: left;
+}
+
+.logo-nav-contenedor {
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.nav {
+ margin-top: 9px;
+ margin-left: 9px;
+}
+
+.nav ul{
+  display: none;
+}
+
+.nav input:checked  ~ ul{
+  display:block;
+}
+
+.nav input {
+  display: none;
+}
+
+.nav label {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+  color: white;
+}
+
+.nav label:hover{
+  background: grey;
+}
+
+.nav input:checked ~ label {
+  background: lightgrey;
+}
+
+.nav ul{
+  margin-top:0;
+  padding: 0;
+  width: 200px;
+
+}
+
+
+.nav li {
+  display: block;
+  background: lightgrey;
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+  border-bottom: 1px solid grey;
+}
+
+.nav li:hover {
+  filter: brightness(110%);
+}
+
+
+.main{
+  padding-top: 52px;
+}
+
+.slider {
+  height: auto;
+	width: 100%;
+	margin: 0 auto;
+  padding: 0;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+
+	animation: cambio 16s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+  height: auto;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+#uno {
+    background-image: url(img/F1Receta.jpg);
+}
+
+#dos {
+    background-image: url(img/F2Receta.jpg);
+}
+
+#tres {
+    background-image: url(img/F3Receta.jpg);
+}
+
+#cuatro {
+    background-image: url(img/F4Receta.jpg);
+}
+
+
+.container {
+
+  background-position: center;
+  background-size: cover;
+  width: 200px;
+  height: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+
+.middle {
+  position: relative;
+  top: 120px;
+  width: 120px;
+  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0;
+  text-align: center;
+
+}
+
+.container:hover{
+  width: 240px;
+  height: 300px;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 15px;
+}
+
+.submit {
+  width: 230px;
+  height: 50px;
+  margin: 1px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+#boton{
+  margin-top: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 232px;
+  height: 52px;
+}
+
+#espacio{
+  height: 40px;
+  width: 40px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  }
+
+.footer {
+  margin-bottom: 0px;
+  width: 100%;
+  height: 150px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: black;
+  color: white;
+}
+
+.redessociales {
+  width: calc(100%/3);
+  height: 100%;
+  float: left;
+}
+
+.acesosdirectos {
+  width: calc(100%/3);
+  height: 100%;
+  float: left;
+}
+
+.contacto {
+  width: calc(100%/3);
+  height: 100%;
+  float: left;
+}
+
+.redessociales img {
+  height: 35px;
+}
+
+.redessociales p{
+font-size: 12px;
+margin-top: -27px;
+margin-left: 35px;
+padding: 0px;
+}
+
+#euno {
+margin: 0px;
+padding: 0px;
+float: left;
+height: 35px;
+}
+
+#edos {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  height: 35px;
+}
+
+#etres {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  height: 35px;
+}
+
+#ecuatro {
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  height: 35px;
+}
+
+.acesosdirectos {
+  font-size: 12px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.textuno {
+  height: auto;
+  margin-top: -5px;
+}
+
+.contacto {
+  font-size: 12px;
+  text-align: center;
+  line-height: 15px;
+}
